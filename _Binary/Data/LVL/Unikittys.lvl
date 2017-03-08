@@ -1,0 +1,27 @@
+Ver: 1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+Instance: Unikitty.obj -> Unikitty (-9.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Unikitty.obj -> UnikittyS (-4.5, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Unikitty.obj -> UnikittyB ( 0.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Unikitty.obj -> UnikittyA ( 4.5, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Unikitty.obj -> UnikittyF ( 9.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+#ModifyMaterial
+#ModifyMaterial: InternalName | material -> newMaterial | DiffuseTexture NormalTexture SpecularTexture
+ModifyMaterial: Unikitty | Face_sg -> Face_Sc | UnikittyFaceSc.png SAME SAME
+
+#ADDOn
+#AddOn: Instance -> AddOnFile
+AddOn: UnikittyB -> Unikitty.Bussinesskitty
+AddOn: UnikittyS -> Unikitty.Sickkitty
+AddOn: UnikittyA -> Unikitty.Astrokitty
+AddOn: UnikittyF -> Unikitty.Firekitty
+
+#ModifyProgram
+#ModifyProgram: InternalName | VertexShader | FragementShader | ShaderName
+#ModifyProgram: UnikittyS | Basic.vs | Basic.fs | Basic
+ModifyProgram: UnikittyB | MEShader.vs | MeShaderBW.fs | BlackAndWhite
+#ModifyProgram: UnikittyA | MEShader.vs | MeShaderInv.fs | Inverse

@@ -1,0 +1,8 @@
+Ver: 0.1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+//Instance: Cone.obj -> TheMesh0 (3.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+//Instance: Cube.obj -> TheMesh1 (-3.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Sphere.obj -> TheMesh2 ( 0.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)

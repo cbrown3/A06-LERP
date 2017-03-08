@@ -1,0 +1,27 @@
+# --------------------------------------------------------------------
+#              Archivo de Jerarquias del modelo WoodDoll
+# --------------------------------------------------------------------
+HP: 17
+#Group -> Parent (Collidable) (HP) (Pivot.x, Pivot.y, Pivot.z)
+Pelvis -> NULL (1) (1) ( -0.0159, 3.8050, 0.0004 )
+Cuerpo -> Pelvis (1) (1) ( -0.0204, 4.3547, 0.0038 )
+Cabeza -> Cuerpo (1) (1) ( -0.0103, 5.7739, -0.0015 )
+Antebrazo_R -> Cuerpo (1) (1) ( -0.6054, 5.2396, -0.0300 )
+Brazo_R -> Antebrazo_R (1) (1) ( -1.8493, 5.1890, -0.1107 )
+Mano_R -> Brazo_R (1) (1) ( -2.8904, 5.1303, 0.0314 )
+AnteBrazo_L -> Cuerpo (1) (1) ( 0.5677, 5.2377, -0.0122 )
+Brazo_L -> AnteBrazo_L (1) (1) ( 1.8095, 5.2675, -0.0796 )
+Mano_L -> Brazo_L (1) (1) ( 2.8541, 5.2114, 0.0336 )
+Muslo_R -> Pelvis (1) (1) ( -0.3109, 3.2626, -0.0035 )
+Pierna_R -> Muslo_R (1) (1) ( -0.5296, 1.8684, 0.0411 )
+Pie_R -> Pierna_R (1) (1) ( -0.6167, 0.2656, 0.0178 )
+Muslo_L -> Pelvis (1) (1) ( 0.2885, 3.2785, -0.0057 )
+Pierna_L -> Muslo_L (1) (1) ( 0.5310, 1.8696, 0.0532 )
+Pie_L -> Pierna_L (1) (1) ( 0.6290, 0.2739, 0.0217 )
+#Billboard -> NULL (1) (1) ( 0.0000, 3.4514, 0.8907 )
+#Billboard2 -> NULL (1) (1) ( 0.0000, 3.4514, 0.8907 )
+# ---------------------------------------------------------------------------------------
+# If you have built castles in the air, your work need not be lost; that is where they
+# should be. Now put the foundations under them.
+# ------------------------------------------------------------Henry David Thoreau--------
+# Archivo Generado el: Mon Apr 02 18:11:51 2012

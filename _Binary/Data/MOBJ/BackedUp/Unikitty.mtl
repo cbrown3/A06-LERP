@@ -1,0 +1,105 @@
+newmtl Body_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UnikittyBody.png
+Ni 1.00
+newmtl EarL_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 221_BrightPurple.png
+Ni 1.00
+newmtl EarR_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 221_BrightPurple.png
+Ni 1.00
+newmtl Face_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UnikittyFace.png
+Ni 1.00
+newmtl HeadB_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 1_White.png
+Ni 1.00
+newmtl HeadT_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 222_mLightPurple.png
+Ni 1.00
+newmtl Head_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 222_mLightPurple.png
+Ni 1.00
+newmtl HornBase_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 1_White.png
+Ni 1.00
+newmtl Horn_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 212_LightRoyalBlue.png
+Ni 1.00
+newmtl LegBB_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 226_CoolYellow.png
+Ni 1.00
+newmtl LegBT_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 1_White.png
+Ni 1.00
+newmtl LegFB_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 42_TransparentLightBlue.png
+Ni 1.00
+newmtl LegFT_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 1_White.png
+Ni 1.00
+newmtl Neck_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 311_TransparentBrightGreen.png
+Ni 1.00
+newmtl Tail_sg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UnikittyTail.png
+Ni 1.00

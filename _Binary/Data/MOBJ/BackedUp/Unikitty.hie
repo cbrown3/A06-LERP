@@ -1,0 +1,25 @@
+# --------------------------------------------------------------------
+#              Archivo de Jerarquias del modelo WoodDoll
+# --------------------------------------------------------------------
+HP: 17
+#Group -> Parent (Collidable) (HP) (Pivot.x, Pivot.y, Pivot.z)
+Body -> NULL (1) (1) ( 0.00, 0.00, 0.00 )
+Tail -> Body (1) (1) ( -1.0000, 2.0000, 0.00 )
+LegBackTop -> Body (1) (1) ( -1.0000, 0.3962, 0.00 )
+LegBackBottom -> LegBackTop (1) (1) ( -1.0000, 0.00, 0.00 )
+LegFrontTop -> Body (1) (1) ( 1.0000, 0.3962, 0.00 )
+LegFrontBottom -> LegFrontTop (1) (1) ( 1.0000, 0.00, 0.00 )
+Neck -> Body (1) (1) ( 1.0000, 2.0000, 0.00 )
+HeadBottom -> Neck (1) (1) ( 1.0000, 2.4243, 0.00 )
+Head -> HeadBottom (1) (1) ( 1.0000, 2.8000, 0.00 )
+Face_Sticker -> Head (1) (1) ( 1.0000, 3.4000, 0.5026 )
+HeadTop -> Head (1) (1) ( 1.0000, 4.0000, 0.00 )
+Ear_R -> HeadTop (1) (1) ( 0.00, 4.4000, 0.00 )
+Ear_L -> HeadTop (1) (1) ( 2.0000, 4.4000, 0.00 )
+HornBase -> HeadTop (1) (1) ( 1.0000, 4.4000, 0.00 )
+Horn -> HornBase (1) (1) ( 1.0000, 4.6991, 0.00 )
+# ---------------------------------------------------------------------------------------
+# If you have built castles in the air, your work need not be lost; that is where they
+# should be. Now put the foundations under them.
+# ------------------------------------------------------------Henry David Thoreau--------
+# Archivo Generado el: Mon Apr 02 18:11:51 2012

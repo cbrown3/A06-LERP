@@ -1,0 +1,8 @@
+Ver: 1
+MaterialName: Body_B
+	Diffuse: UnikittyBodyB.png
+MaterialName: Face_B
+	Diffuse: UnikittyFaceB.png
+	
+MaterialSwap: Body_sg -> Body_B
+MaterialSwap: Face_sg -> Face_B

@@ -1,0 +1,14 @@
+Ver: 1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+
+#ModifyMaterial
+#ModifyMaterial: InternalName | material -> newMaterial | DiffuseTexture NormalTexture SpecularTexture
+
+#ADDOn
+#AddOn: Instance -> AddOnFile
+
+#ModifyProgram
+#ModifyProgram: InternalName | VertexShader | FragementShader | ShaderName

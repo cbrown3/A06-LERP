@@ -1,0 +1,26 @@
+Ver: 1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+Instance: Cube.obj -> TheMesh00 ( 0.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+Instance: Cube.obj -> TheMesh01 ( 2.0, 2.0, 2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh02 (-2.0, 2.0, 2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh03 (-2.0,-2.0, 2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh04 ( 2.0,-2.0, 2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+Instance: Cube.obj -> TheMesh05 ( 2.0, 2.0,-2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh06 (-2.0, 2.0,-2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh07 (-2.0,-2.0,-2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh08 ( 2.0,-2.0,-2.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+Instance: Cube.obj -> TheMesh9 ( 3.5, 3.5, 3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh10 (-3.5, 3.5, 3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh11 (-3.5,-3.5, 3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh12 ( 3.5,-3.5, 3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+Instance: Cube.obj -> TheMesh13 ( 3.5, 3.5,-3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh14 (-3.5, 3.5,-3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh15 (-3.5,-3.5,-3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Cube.obj -> TheMesh16 ( 3.5,-3.5,-3.5) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)

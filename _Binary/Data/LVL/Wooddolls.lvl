@@ -1,0 +1,8 @@
+Ver: 1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+Instance: WoodDoll.obj -> TheMesh2	(-4.0, 0.0, 0.0) ( 0.0, 0.0, 0.0) ( 1.0, 1.0, 1.0) (0,1,2)
+Instance: WoodDoll.obj -> TheMesh0	( 0.0, 0.0, 0.0) ( 0.0, 0.0, 0.0) ( 1.0, 1.0, 1.0) (1,1,0)
+Instance: WoodDoll.obj -> TheMesh1	( 4.0, 0.0, 0.0) ( 0.0, 0.0, 0.0) ( 1.0, 1.0, 1.0) (1,1,1)

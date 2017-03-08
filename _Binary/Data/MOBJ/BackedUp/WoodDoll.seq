@@ -1,0 +1,42 @@
+# --------------------------------------------------------------------
+#                Archivo de secuencias del modelo WoodDoll
+# --------------------------------------------------------------------
+All (0->460) 				//00
+Default (0->0) 				//01
+StandingStnd (1->1) 		//02
+ArguingStnd (2->2) 			//03
+DunnoStnd (3->3) 			//04
+JumpingStnd (4->4) 			//05
+
+SuperCoolStnd (5->5) 		//06
+BooringStnd (6->6) 			//07
+CraneStnd (7->7) 			//08
+
+StandingToArguing (11->20) 	//09
+ArguingToStanding (20->11) 	//10
+
+StandingToDunno (21->30)	//11
+DunnoToStanding (30->21)	//12
+
+StandingToJumping (31->40)	//13
+JumpingToStanding (40->31)	//14
+
+StandingToCrane (41->50)	//15
+CraneToStanding (50->41)	//16
+
+Arguing (200->224)			//17
+
+Dunno (225->273)			//18
+
+Jumping (274->298)			//19
+
+SuperCool (299->347)		//20
+
+Borring (348->396)			//21
+
+Crane (397->460)			//22
+InversedCrane (460->397)	//23
+# ---------------------------------------------------------------------------------------
+# Even a stopped clock is right twice a day.
+# -----------------------------------------------------Marie von Ebner-Eschenbach--------
+# Archivo Generado el: Mon Apr 02 18:11:51 2012

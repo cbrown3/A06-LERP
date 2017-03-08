@@ -1,0 +1,29 @@
+Ver: 1
+MaterialName: Body_F
+	Diffuse: UnikittyBodyF.png
+MaterialName: Face_F
+	Diffuse: UnikittyFaceF.png
+MaterialName: Tail_F
+	Diffuse: UnikittyTailF.png
+MaterialName: 21
+	Diffuse: 21_BrightRed.png
+MaterialName: 154
+	Diffuse: 154_DarkRed.png
+MaterialName: 24
+	Diffuse: 24_BrightYellow.png
+	
+MaterialSwap: Body_sg -> Body_F 
+MaterialSwap: Face_sg -> Face_F
+MaterialSwap: Tail_sg -> Tail_F
+MaterialSwap: EarL_sg -> 21
+MaterialSwap: EarR_sg -> 21
+MaterialSwap: Horn_sg -> 21
+MaterialSwap: HornBase_sg -> 154
+MaterialSwap: HeadT_sg -> 21
+MaterialSwap: Head_sg -> 21
+MaterialSwap: HeadB_sg -> 24
+MaterialSwap: Neck_sg -> 21
+MaterialSwap: LegBT_sg -> 24
+MaterialSwap: LegFT_sg -> 24
+MaterialSwap: LegBB_sg -> 154
+MaterialSwap: LegFB_sg -> 154

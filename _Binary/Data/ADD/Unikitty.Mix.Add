@@ -1,0 +1,49 @@
+Ver: 1
+ProgramName: GrayScale
+	 VertexShader: MeShader.vs
+	 FragmentShader: MeShaderBW.fs
+	 
+ProgramName: Inverted
+	 VertexShader: MeShader.vs
+	 FragmentShader: MeShaderInv.fs
+	 
+MaterialName: Body_S
+	Diffuse: UnikittyBodyB.png
+	
+MaterialName: Face_S
+	Diffuse: UnikittyFaceS.png
+	
+MaterialName: Tail_S
+	Diffuse: UnikittyTailF.png
+	
+MaterialName: 330
+	Diffuse: 330_OliveGreen.png
+
+MaterialName: 151
+	Diffuse: 151_SandGreen.png 
+
+MaterialName: 311_m
+	Diffuse: 311_mTransparentBrightGreen.png
+
+MaterialName: 21
+	Diffuse: 21_BrightRed.png
+
+GroupName: Body
+	GroupMaterial: Body_S
+	GroupProgram: GrayScale
+	
+GroupName: Ear_R
+	GroupMaterial: 311_m
+	
+GroupName: HeadBottom
+	GroupProgram: Inverted
+	
+GroupName: Ear_L
+	GroupMaterial: 21
+	
+GroupName: Face_Sticker
+	GroupProgram: GrayScale
+
+MaterialSwap: Tail_sg -> Tail_S
+GroupName: Tail
+	GroupProgram: Inverted

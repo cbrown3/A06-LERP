@@ -1,0 +1,24 @@
+Ver: 1
+MaterialName: Body_A
+	Diffuse: UnikittyBodyA.png
+MaterialName: Face_A
+	Diffuse: UnikittyFaceA.png
+MaterialName: 23
+	Diffuse: 23_BrightBlue.png
+MaterialName: 297
+	Diffuse: 297_WarmGold.png
+	
+MaterialSwap: Body_sg -> Body_A
+MaterialSwap: Face_sg -> Face_A
+MaterialSwap: Tail_sg -> 23
+MaterialSwap: EarL_sg -> 23
+MaterialSwap: EarR_sg -> 23
+MaterialSwap: Horn_sg -> 297
+MaterialSwap: HeadT_sg -> 23
+MaterialSwap: Head_sg -> 23
+MaterialSwap: HeadB_sg -> 23
+MaterialSwap: Neck_sg -> 23
+MaterialSwap: LegBT_sg -> 23
+MaterialSwap: LegFT_sg -> 23
+MaterialSwap: LegBB_sg -> 297
+MaterialSwap: LegFB_sg -> 297

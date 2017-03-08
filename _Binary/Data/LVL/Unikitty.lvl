@@ -1,0 +1,22 @@
+Ver: 1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+Instance: Unikitty.obj -> Unikitty (0.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+#ADDOn
+#AddOn: Instance - > AddOnFile
+#AddOn: Unikitty -> Unikitty.Bussinesskitty
+#AddOn: Unikitty -> Unikitty.Sickkitty
+#AddOn: Unikitty -> Unikitty.Astrokitty
+AddOn: Unikitty -> Unikitty.Firekitty
+#AddOn: Unikitty -> Unikitty.Mix
+
+#ModifyMaterial
+#ModifyMaterial: TheMesh0 | Body_sg -> Body_S | UnikittyBodyB.png
+
+#ModifyProgram
+#ModifyProgram: Unikitty | MeShader.vs | MeShaderInv.fs | Inverted
+#ModifyProgram: Unikitty | MeShader.vs | MeShaderBW.fs | GrayScale
+#ModifyProgram: Unikitty | Basic.vs | Basic.fs | Basic

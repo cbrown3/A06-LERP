@@ -1,0 +1,14 @@
+Ver: 0.1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+Instance: Unikitty.obj -> TheMesh1 (-3.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+#Instance: Wooddoll.obj -> TheMesh0 (0.0, 0.0, 0.0) (0.0, 90.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Wooddoll.obj -> TheMesh3 (7.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+#Instance: Cube.obj -> Object1 (-2.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+#Instance: Cube.obj -> Object2 (2.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+#AddOn: TheMesh1 -> Unikitty.Bussinesskitty
+#ModifyProgram: TheMesh1 | MeShader.vs | MeShaderBW.fs | GrayScale

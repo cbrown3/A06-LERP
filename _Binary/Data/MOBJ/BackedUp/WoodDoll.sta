@@ -1,0 +1,24 @@
+#NAME (SEQUENCE,BREAKABLE,TRANSITION,LOOP)
+States:
+Standing (2,1,0,1)
+Jumping (19,0,0,1)
+Crane (22,0,0,1)
+
+StandingToJumping (13,0,1,0)
+JumpingToStanding (14,0,1,0)
+	
+StandingToCrane (15,0,1,0)
+CraneToStanding (16,0,1,0)
+
+Exits:
+Standing -> StandingToJumping
+StandingToJumping -> Jumping
+
+Standing -> StandingToCrane
+StandingToCrane -> Crane
+	
+Jumping -> JumpingToStanding
+JumpingToStanding -> Standing
+
+Crane -> CraneToStanding
+CraneToStanding -> Standing

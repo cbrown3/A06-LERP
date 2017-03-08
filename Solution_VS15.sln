@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{124C8EDD-52BA-4EAA-A1F4-6D4302AB5DEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ICEs", "ICEs", "{0B1C8EE7-E852-45B2-A546-BE37B521048A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A06_LERP", "A06_LERP\A06_LERP.vcxproj", "{8FB45351-2348-4127-9143-D866C86EE527}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E07s_LERP", "E07s_LERP\E07s_LERP.vcxproj", "{F2B4B292-2881-40EA-A091-57D14FB1AE05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB45351-2348-4127-9143-D866C86EE527}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FB45351-2348-4127-9143-D866C86EE527}.Debug|x86.Build.0 = Debug|Win32
+		{8FB45351-2348-4127-9143-D866C86EE527}.Release|x86.ActiveCfg = Release|Win32
+		{8FB45351-2348-4127-9143-D866C86EE527}.Release|x86.Build.0 = Release|Win32
+		{F2B4B292-2881-40EA-A091-57D14FB1AE05}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2B4B292-2881-40EA-A091-57D14FB1AE05}.Debug|x86.Build.0 = Debug|Win32
+		{F2B4B292-2881-40EA-A091-57D14FB1AE05}.Release|x86.ActiveCfg = Release|Win32
+		{F2B4B292-2881-40EA-A091-57D14FB1AE05}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FB45351-2348-4127-9143-D866C86EE527} = {124C8EDD-52BA-4EAA-A1F4-6D4302AB5DEC}
+		{F2B4B292-2881-40EA-A091-57D14FB1AE05} = {0B1C8EE7-E852-45B2-A546-BE37B521048A}
+	EndGlobalSection
+EndGlobal

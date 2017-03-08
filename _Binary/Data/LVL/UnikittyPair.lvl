@@ -1,0 +1,18 @@
+Ver: 1
+Ang: Degree
+
+#Instances
+#Instance: Model.Ext -> InternalName (fPosX, fPosY, fPosZ) (fAngX, fAngY, fAngZ) (fSizeX, fSizeY, fSizeZ) (nVisibility, nCollidiable, nState)
+Instance: Unikitty.obj -> TheMesh0 (0.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+Instance: Unikitty.obj -> TheMesh1 (0.0, 0.0, 0.0) (0.0, 0.0, 0.0) (1.0, 1.0, 1.0) (1, 1, 0)
+
+#ADDOn
+#AddOn: Instance - > AddOnFile
+AddOn: TheMesh1 -> Unikitty.Bussinesskitty
+
+#ModifyMaterial
+#ModifyMaterial: TheMesh0 | Body_sg -> Body_S | UnikittyBodyB.png
+
+#ModifyProgram
+#ModifyProgram: TheMesh0 | Basic.vs | Basic.fs | Basic
+ModifyProgram: TheMesh1 | MeShader.vs | MeShaderBW.fs | GrayScale
